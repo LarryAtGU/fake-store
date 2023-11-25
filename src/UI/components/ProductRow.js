@@ -2,6 +2,7 @@ import { View,Text,StyleSheet,Image } from "react-native"
 import { useState } from "react"
 import SButton from "./SButton"
 import ProductDetail from "./ProductDetail"
+import color from "../../constants/color"
 const displayCurrency = (s) => {
     return '$'+parseFloat(s).toFixed(2)
 }
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
         marginLeft:5,
         width:70,
         height:70,
-        borderColor:'black',
+        borderColor:color.border,
         borderRadius:5,
         borderWidth:1
     },
@@ -61,9 +62,9 @@ const styles = StyleSheet.create({
     container:{
         width:'95%',
         // height:70,
-        backgroundColor:'white',
+        backgroundColor:color.contentBackGround,
         borderWidth:2,
-        borderColor:'black',
+        borderColor:color.border,
         borderRadius:5,
         marginLeft:5,
         marginRight:5,
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
 
     },
     text:{
-        color:'black',
+        color:color.textDark,
         fontSize:12,
         paddingLeft:5
     },
