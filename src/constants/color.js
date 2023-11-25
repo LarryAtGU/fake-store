@@ -1,17 +1,26 @@
 export default colors = {
-    screenBackGroundColor:'#ccc',
 
-    boardColor: 'darkblue',
-    boardBackGroundColor: 'darkorange',
-    messageTextColor:'white',
-    cellBackGroundColor: 'green',
-    chessColor:'yellow',
-    chessHighLightColor:'red',    
 
-    messagBackgroundColor: '#333',
+    screenBackGround:'#f4f4f4',
+    contentBackGround:'#fff',
+    uneditBackGround:'#fcfaf2',
+    quoteBackGround:'#dedede',
+    titleBackGround:'#34a2d2',
+    titleStess:'#1785c6',
 
-    titleBackGroundColor:'darkgreen',
+    textGrey:'#7a7a7a',
+    textLink:'#006dcc',
+    textDark:'#2a2a2a',
+    textDisable:'#eff3f8',
+    textButton:'#f4f4f4',
 
-    buttonBackGroundColor:'blue',
-    buttonDisableBackGroundColor:'gray'
+    border:'#2a2a2a',
+
+    primary:'#006dcc',
+    info:'#49afcd',
+    success:'#5bb75b',
+    warning:'#faa732',
+    danger:'#da4f49',
+    disable:'#7a7a7a',
+
 }

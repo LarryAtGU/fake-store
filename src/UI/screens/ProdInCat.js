@@ -43,13 +43,13 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         margin:20,
-        backgroundColor:color.screenBackGroundColor,
+        backgroundColor:color.contentBackGround,
         justifyContent:'space-around',
         flexDirection:'column',
         alignItems:'center'
     }, 
     text: {
-        color:'white',
+        color:color.uneditBackGround,
         fontSize:20
     }
 })

@@ -1,4 +1,5 @@
 import { View,Text,StyleSheet } from "react-native";
+import color from "../../constants/color";
 export default function ProductDetail({prod}) {
     return (
         <View style={styles.container}>
@@ -13,6 +14,6 @@ const styles= StyleSheet.create({
         flexDirection:'column'
     },
     text:{
-
+        color:color.textDark,
     }
 })

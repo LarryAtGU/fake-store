@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
         flex:1,
         width:'90%',
         borderWidth:2,
-        borderColor:color.boardColor,
-        backgroundColor:color.messagBackgroundColor,
+        borderColor:color.textDark,
+        backgroundColor:color.contentBackGround,
         borderRadius:5,
         flexDirection:'column',
         alignItems:'center',
@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
     },
     text:{
         fontSize:16,
-        color:color.messageTextColor,
         padding:5
     }
 })

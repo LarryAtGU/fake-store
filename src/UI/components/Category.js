@@ -1,5 +1,5 @@
 import { View,Text,StyleSheet } from "react-native"
-
+import color from "../../constants/color"
 export default function Category({cat,gotoCat}){
     return (
     <View style={styles.container}>
@@ -12,9 +12,9 @@ const styles = StyleSheet.create({
     container:{
         width:'95%',
         height:60,
-        backgroundColor:'grey',
+        backgroundColor:color.quoteBackGround,
         borderWidth:2,
-        borderColor:'black',
+        borderColor:color.border,
         borderRadius:5,
         marginHorizontal:10,
         marginTop:20,
@@ -24,8 +24,9 @@ const styles = StyleSheet.create({
     },
     text:{
         fontWeight:'bold',
-        color:'white',
+        color:color.textLink,
         fontSize:30,
         padding:10,
+
     }
 })

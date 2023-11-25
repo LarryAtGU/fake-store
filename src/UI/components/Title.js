@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
         borderWidth:2,
-        borderColor:color.boardColor,
-        backgroundColor:color.titleBackGroundColor,
+        borderColor:color.border,
+        backgroundColor:color.titleBackGround,
         borderRadius:5,
-        marginTop:10
+        marginTop:35
     },
     text:{
         fontSize:20,
         fontWeight:'bold',
-        color:color.messageTextColor
+        color:color.textButton
     }
 })
